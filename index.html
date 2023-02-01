@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudharsan S | Portfolio</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" >
+
+    <!-- Font awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- <script src="index.js"></script> -->
+</head>
+<body>
+    <section id="header" class="page-section">
+        <section id="navigation-bar">
+            <nav class="navbar navbar-expand-lg myNav fixed-top">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><img class="bgImage" src="images/sudhar's.png" alt="Logo" ></a>
+                    <button class="navbar-toggler navButton" onclick="myBtn()" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end m-view-navbar" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: black !important;">My Portfolio</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav ms-auto myNavList">
+                                <li class="nav-item myNavLink myNavItem">
+                                    <a href="#header" class="nav-link a active">Home</a>
+                                </li>
+                                <li class="nav-item myNavLink myNavItem">
+                                    <a href="#About" class="nav-link a">About</a>
+                                </li>
+                                <li class="nav-item myNavLink myNavItem">
+                                    <a href="#services" class="nav-link a">Services</a>
+                                </li>
+                                <li class="nav-item myNavLink myNavItem">
+                                    <a href="#education" class="nav-link a">Edu & Exp</a>
+                                </li>
+                                <li class="nav-item myNavLink myNavItem">
+                                    <a href="#contact" class="nav-link a">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <div class="row header-middle">
+            <div class="col-lg-12">
+                <h1>I'm Sudharsan S</h1>
+                <h2>A Front End Developer</h2>
+                <p>Welcome to my Portfolio</p>
+            </div>
+        </div>
+    </section>
+    <section id="About" class="page-section">
+            <div class="row">
+                <div class="col-lg-6 img-wrap">
+                    <!-- <img class="myImage" src="images/My photo.JPG" alt="Sudharsan S" /> -->
+                </div>
+                <div class="col-lg-6 bio bio2">
+                    <h1  style="color: black !important;">My Bio</h1>
+                    <p   style="color: grey !important;">I'm Sudharsan S. I have been working at Capgemini Technologies for 2 years. I am very much interested in Web development. I begin to build smaller web applications with just HTML and CSS. Later I learnt powerful tools like Javascript, Bootstrap, ReactJS. I am passionate to build web applications with my knowledge in below skills I have.</p>
+                    <div class="myBio">
+                        <p style="color: black !important;">HTML5</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p style="color: black !important;">CSS3</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 92%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">92%</div>
+                        </div>
+                        <p style="color: black !important;">JAVASCRIPT</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p style="color: black !important;">BOOTSTRAP</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+                        <p style="color: black !important;">REACT</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                    </div>
+                    <div class="downloadBtn">
+                        <a href="/resume/Resume Sudharsan S.pdf" download>
+                            <button type="button" class="btn1">DOWNLOAD CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="services" class="page-section">
+        <div>
+            <h1 style="color: black !important; text-align: center; margin-bottom: 5%;">My Services</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4" style="margin-bottom: 5% !important;">
+                <div class="card cards">
+                    <div class="card-body myServices">
+                        <i class="fa-solid fa-desktop cardIcon"></i>
+                        <h5 style="color: black !important;">Front End Design</h5>
+                        <ul class="cardList">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <p>HTML is the standard markup language. It describes the structure of a web page. Where CSS is used to style and layout the web pages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" style="margin-bottom: 5% !important;">
+                <div class="card cards">
+                    <div class="card-body myServices">
+                        <i class="fa-solid fa-code cardIcon"></i>
+                        <h5 style="color: black !important;">Front End Development</h5>
+                        <ul class="cardList" id="jsUl">
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                        <p>JavaScript is a dynamic programming language. It is a client-side script to interact with the user and make dynamic pages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" style="margin-bottom: 5% !important;">
+                <div class="card cards">
+                    <div class="card-body myServices">
+                        <i class="fa-solid fa-book cardIcon"></i>
+                        <h5 style="color: black !important;">Front End Libraries</h5>
+                        <ul class="cardList">
+                            <li>BOOTSTRAP</li>
+                            <li>REACTJS</li>
+                        </ul>
+                        <p>Bootstrap is designed to enable responsive development of mobile-first websites. Whereas ReactJS is a JavaScript framework to build single page web applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="page-section">
+        <div>
+            <h1 style="color: black !important; text-align: center; margin-bottom: 5%;">Education & Experience</h1>
+        </div>
+            <div  style="margin-bottom: 6%;">
+                <h6 style="color: black !important; text-align: center; margin-bottom: 2%;">My Education</h6>
+                <p>
+                    <button class="eduBtn" onclick="clickedButton()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation" aria-expanded="false" aria-controls="collapseExample">
+                    BACHELOR DEGREE OF ELECTRONICS AND COMMUNICATION ENGINEERING <i class="fa-solid fa-plus eduIcon"></i><i class="fa-solid fa-minus eduIcon1"></i>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseEducation">
+                    <div class="card card-body cardExpand">
+                    I pursued my Bachelor Degree at Nandha Engineering College with CGPA of 8.2. I started my coding career while I was studying my UG. I participated on some co-curricular and extra-curricular activites. I graduated on July 2020.
+                    </div>
+                </div>
+                <p>
+                    <button class="eduBtn" onclick="clickedButton1()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation1" aria-expanded="false" aria-controls="collapseExample">
+                    DIPLOMA IN ELECTRONICS AND COMMUNICATION ENGINEERING <i class="fa-solid fa-plus eduIcon"></i><i class="fa-solid fa-minus eduIcon1"></i>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseEducation1">
+                    <div class="card card-body cardExpand">
+                    I have done my diploma with 98% in the year of April 2017 at Konghu Velalar Polytechnic college. In my Diploma, I began to know about coding and started to test it in computer lab and that was cool.
+                    </div>
+                </div>
+                <p>
+                    <button class="eduBtn" onclick="clickedButton2()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEducation2" aria-expanded="false" aria-controls="collapseExample">
+                    SSLC <i class="fa-solid fa-plus eduIcon"></i><i class="fa-solid fa-minus eduIcon1"></i>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseEducation2">
+                    <div class="card card-body cardExpand">
+                    I completed my SSLC at Universal Matriculation Higher Secondary School with 92%.
+                </div>
+            </div>
+        </div>
+        <div  style="margin-bottom: 10%;">
+          <h6 style="color: black !important; text-align: center; margin-bottom: 2%;">My Experience</h6>
+          <p>
+            <button class="eduBtn" onclick="clickedButton3()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperience" aria-expanded="false" aria-controls="collapseExample">
+              CAPGEMINI TECHNOLOGIES <i class="fa-solid fa-plus eduIcon"></i><i class="fa-solid fa-minus eduIcon1"></i>
+            </button>
+          </p>
+          <div class="collapse" id="collapseExperience">
+            <div class="card card-body cardExpand">
+              I have been working at Capgemini since March 2021. Working in support project for supporting the Point-of-Sale web applications. Working as key resource for that project, to deliver the outcome with 100% SLA. Looking for the opportunity to change my career to Web Development.
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="page-section">
+        <div>
+            <h1 style="color: black !important; text-align: center; margin-bottom: 5%;">Contact Me</h1>
+        </div>
+        <div style="margin-bottom: 10%;">
+            <div class="row">
+                <div class="col-lg-8">
+                    <form action="https://formsubmit.co/sudharsivaraj@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                    <label for="fName">First name</label> <br>
+                                    <input class="inputStyle" onclick="inputButton()" type="text" id="fName" name="FirstName" />
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="lName">Last name</label> <br>
+                                <input class="inputStyle" type="text" id="lName" name="LastName" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="emailID">Email Address</label> <br>
+                                <input class="inputStyle1" type="email" id="emailID" name="Email" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="message">Message</label>
+                                <textarea class="inputStyle1" name="MessageContent" id="message" rows="5" cols="20"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="sendBtn">SEND MESSAGE</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="col-lg-4">
+                    <h5 style="color: black !important; margin-bottom: 10%;">Contact Info</h5>
+                    <div class="contactInfo">
+                        <i class="fa-solid fa-location-dot" style="margin-right: 4%;"></i>
+                        <span style="font-size: 0.9rem; font-weight: 400;" style="color: black !important;">Tirupur, Tamilnadu, India.</span>
+                    </div>
+                    <div class="contactInfo">
+                        <i class="fa-solid fa-phone"></i>
+                        <span><a class="contactLink" href="tel:+919994328238">+919994328238</a></span>
+                    </div>
+                    <div class="contactInfo">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span><a class="contactLink" href="mailto:sudharsivaraj@gmail.com">sudharsivaraj@gmail.com</a></span>
+                    </div>
+                    <div class="socialLinks">
+                        <a href="https://www.linkedin.com/in/sudharssivaraj" target="_blank"><i class="fa-brands fa-linkedin myLinks"></i></a>
+                        <a href="https://www.facebook.com/sudharssivaraj" target="_blank"><i class="fa-brands fa-facebook myLinks"></i></a>
+                        <a href="https://twitter.com/sudhar_sivaraj" target="_blank">
+                        <i class="fa-brands fa-twitter myLinks"></i></a>
+                        <a href="https://www.instagram.com/sudhar_sivaraj/" target="_blank">
+                        <i class="fa-brands fa-instagram myLinks"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div>
+            <p class="footerText">Copyright © Sudharsan S</p>
+        </div>
+    </section>
+    <!-- <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbzL7qowGyzPTA0WCbHo4D2WGAx4Dg_0VyliL7_4ujBFzEwsALIE3XnQ1x2_SDOhtYSN5A/exec";
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+    <script src="index.js"></script>
+</body>
+</html>
