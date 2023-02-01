@@ -39,16 +39,16 @@ function myBtn() {
             link on Scrolling */
             $(window).scroll(function () {
                 var distance = $(window).scrollTop();
-                $('.page-section').each(function (i) {
+                $(".page-section").each(function (i) {
   
                     if ($(this).position().top 
                         <= distance + 250) {
                           
-                            $('.navbar-nav a.active')
-                                .removeClass('active');
+                            $(".navbar-nav a.active")
+                                .removeClass("active");
   
-                            $('.navbar-nav a').eq(i)
-                                .addClass('active');
+                            $(".navbar-nav a").eq(i)
+                                .addClass("active");
                     }
                 });
             }).scroll();
